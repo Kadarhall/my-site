@@ -1,47 +1,46 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Covid Recovery Tracker',
+    subtitle: 'Reactjs App that tracks covid-19 active cases, deaths and recoveries of listed counties',
+    link: 'https://covid-recovery-tracker-da53e287c661.herokuapp.com/',
+    image: '/images/projects/covid-tracker-img.png',
+    // date: '2021-09',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Created to track covid numbers across the globe '
+      + 'React app frontend and Nodejs API backend that crawls '
+      + 'the worldometer, Johns Hopkins, NYT, CDC, etc. to collect covid-19 active cases, deaths and recoveries '
+      + 'up to the present day',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Social Monkey',
+    subtitle: 'Social media app built in React',
+    link: 'https://frosty-mayer-76b20b.netlify.app/',
+    image: '/images/projects/social-monkey-img.png',
+    // date: '2020-09-20',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'React CRUD app built on top of Google firebase client. '
+      + 'User is able create, read, update and delete posts in additon to signup and login. '
+      + 'Data is persisted and managed in Google Firebase.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'Keystone RV Camping World',
+    subtitle: 'PHP and Typescript e-commerce app',
+    link: 'https://keystonerv.campingworld.com',
+    image: '/images/projects/keystone-rv2.png',
+    // date: '2020-09-20',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+      'Postgresql/Laravel backend and Typescript frontend e-ccommerce '
+      + 'enterprise level production application with 5,000 daily visits. '
+      + 'Design adapted from Figma. ',
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
+    title: 'Under Construction',
+    subtitle: 'The image and link to this app will be updated soon',
+    image: '/images/projects/under-construction.jpg',
+    // date: '2020-09-20',
     desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+    'The image and link to this app will be updated soon ',
   },
 ];
 
